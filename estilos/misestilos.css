@@ -1,0 +1,74 @@
+.logo-img{
+    width: 150px;
+    height: 150px;
+}
+.banner-img{
+    width: 100%;
+    height: auto;
+}
+.ghost_img{
+    padding-left: 250px;
+    width: 887px;
+    height: auto;
+    align-self: flex-end;
+}
+
+.buscador {
+    display: flex;
+    width: 450px;
+    height: 70px;
+    border-radius: 10px;
+    background: var(--color-buscar);
+    padding: 8px;
+    box-sizing: border-box;
+    gap: 8px;
+}
+
+.buscador-input {
+    flex: 1;
+    background: var(--color-buscar);
+    color: var(--color-blanco);
+    border: none;
+    padding: 12px 15px;
+    border-radius: 5px;
+    font-family: var(--fuente-familia);
+    font-size: 1rem;
+}
+
+.buscador-input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.btn-buscar {
+    background: var(--color-blanco);
+    color: var(--color-negro);
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.btn-iniciar-sesion:hover{
+    background-color: var(--color-hover-btn);
+    color: var(--color-negro)
+}
+.btn-registrarse:hover{
+    background-color: var(--color-hover-btn);
+    color: var(--color-negro)
+}
+.btn-buscar:hover{
+    background-color: var(--color-hover-btn);
+    color: var(--color-negro)
+}
+
+.separador{
+    height: 250px;
+    width: 100%;
+    background-color: var(--color-secundario);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
