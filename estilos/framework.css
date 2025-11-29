@@ -1,6 +1,11 @@
 /* Fuentes */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Prociono&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 :root{
     --color-banner-footer: #D99C45;
     --color-buscar: #A2650E;
@@ -19,6 +24,10 @@
     --dimension-redondeado: 20px;
     --padding: 10px;
     --margin: 40px;
+}
+
+body {
+    overflow-x: hidden;
 }
 
 /* border */
@@ -59,8 +68,14 @@
 .text-white{color:var(--color-blanco);}
 .text-line-through{text-decoration: line-through;}
 .text-transform-uppercase{text-transform: uppercase;}
-.text_header-footer{
+.text_header{
     font-size: 60px;
+    font-weight: bold;
+    color: var(--color-negro);
+    line-height: 1;
+}
+.text-footer-logo{
+    font-size: 40px;
     font-weight: bold;
     color: var(--color-negro);
     line-height: 1;
@@ -73,17 +88,25 @@
     padding-left: 70px;
 }
 .text-parrafo-section{
-    font-size: 50px;
+    font-size: 35px;
     line-height: 2;
     color: var(--color-parrafos);
     font-family: var(--fuente-familia);
     font-weight: bold;
-    padding-right: 50px;
+    padding-right: 60px;
+    margin-top: 70px;
 }
 .text-separador{
     font-size: 80px;
     font-family: var(--fuente-familia);
     color: var(--color-blanco);
+}
+.text-footer{
+    font-size: 30px;
+    font-family: var(--fuente-familia);
+    color: var(--color-negro);
+    margin-top: 100px;
+    margin-right: 20px;
 }
 
 
@@ -121,5 +144,8 @@
     font-weight: bold;
     font-size: 25px;
 }
-
+/* extra */
+#footer{
+    height: 150px;
+}
 

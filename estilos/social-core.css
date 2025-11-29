@@ -1,6 +1,10 @@
-.logo-img{
+.logo-img-header{
     width: 150px;
     height: 150px;
+}
+.logo-img-footer{
+    width: 90px;
+    height: 90px;
 }
 .banner-img{
     width: 100%;
@@ -8,9 +12,11 @@
 }
 .ghost_img{
     padding-left: 250px;
-    width: 887px;
+    width: 800px;
     height: auto;
     align-self: flex-end;
+    display: block;
+    margin: 0;
 }
 
 .buscador {
@@ -60,7 +66,7 @@
 }
 .btn-buscar:hover{
     background-color: var(--color-hover-btn);
-    color: var(--color-negro)
+    color: var(--color-blanco)
 }
 
 .separador{
@@ -70,5 +76,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0;
+    padding: 0;
 }
+
+article {
+    margin: 0;
+    padding: 0;
+}
+
+section:first-of-type {
+    margin: 0;
+    padding: 0;
+}
+
+section:first-of-type > div {
+    margin: 0;
+    padding: 0;
+}
+
+
 
