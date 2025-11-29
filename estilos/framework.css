@@ -30,6 +30,14 @@ body {
     overflow-x: hidden;
 }
 
+/* borrar borrar borraaaaaar*/
+* {
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+    border-image: initial;
+}
+
 /* border */
 .border-buscar{border: 3px dashed var(--color-blanco); }
 .rounded{border-radius: 50%;}
@@ -149,4 +157,6 @@ body {
 #footer{
     height: 150px;
 }
+
+
 
