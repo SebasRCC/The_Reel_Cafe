@@ -66,13 +66,34 @@
 
 .nav-hint{
     margin-top: 20px;
+    padding: 20px;
+    background: #b3d9ff;
+    border-radius: 15px;
     text-align: center;
 }
 
+.nav-hint-title{
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    color: var(--color-negro);
+    font-family: var(--fuente-familia);
+}
+
+.nav-hint-description{
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+    font-family: var(--fuente-familia);
+}
+
 .continue-link{
+    display: block;
     color: var(--color-negro);
     font-weight: bold;
     text-decoration: underline;
+    margin: 8px 0;
+    font-size: 18px;
 }
 
 .imagen-register{
