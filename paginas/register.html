@@ -12,49 +12,34 @@
 </head>
 <body>
     <header class="d-flex justify-content-between align-items-center bg-header-footer">
-        <div class="d-flex align-items-center">
+        <div class="d-flex align-items-center padding-login">
             <img class="logo-img-header" src="../recursos/imgs/logo.png" alt="Logo The Reel Cafe">
             <h1 class="text_header">The Reel <br> Café</h1>
         </div>
+        <a class="back-arrow" href="login.html" aria-label="Volver al login">← Volver</a>
     </header>
 
-    <section>
-        <h1>Iniciar sesión</h1>
-        <div>
-            <div>
-                <p>Accede a tu cuenta para disfrutar reseñas personalizadas, conectar con otros cinéfilos y compartir tus opiniones sobre tus películas favoritas.</p>
-                <div>
-                    <img src="../recursos/imgs/How-to-train-your-dragon.png" alt="How to train your dragon">
-                </div>
-            </div>
-            <div>
-                <form action="#" method="post">
-                    <div>
-                        <label for="login-username">Nombre de usuario</label>
-                        <input type="text" id="login-username" name="username" placeholder="Escribe tu usuario" required>
-                    </div>
-                    <div>
-                        <label for="login-email">Correo</label>
-                        <input type="email" id="login-email" name="email" placeholder="Escribe tu correo" required>
-                    </div>
-                    <div>
-                        <label for="login-password">Contraseña</label>
-                        <input type="password" id="login-password" name="password" placeholder="Escribe tu contraseña" required>
-                    </div>
-                    <div>
-                        <label>
-                            <input type="checkbox" name="remember">
-                            Recordarme
-                        </label>
-                        <a href="#">¿Olvidaste tu contraseña?</a>
-                    </div>
-                    <div>
-                        <button type="submit">Iniciar sesión</button>
-                        <button type="button">Crear cuenta</button>
-                    </div>
-                </form>
-            </div>
-        </div>
+    <section class="d-flex justify-content-center align-items-center global-container">
+        <article class="margin-login-right container-text">
+            <h1 class="text-h1">Crear cuenta</h1>
+            <br>
+            <p class="text-parrafo tamaño">Regístrate para unirte a la comunidad, compartir tus reseñas y descubrir nuevas películas junto a otros cinéfilos.</p>
+            <br>
+            <div><img class="imagen-register" src="../recursos/imgs/How-to-train-your-dragon.png" alt="Personajes de How to Train Your Dragon"></div>
+        </article>
+        <article class="container-text">
+            <form class="d-flex flex-colum gap form-login rebajar-tamanio">
+                <label for="register-username">Username</label>
+                <input type="text" name="username" id="register-username" placeholder="Escribe tu nombre de usuario" required>
+                <label for="register-email">Correo</label>
+                <input type="email" id="register-email" name="email" placeholder="Escribe tu correo" required>
+                <label for="register-password">Contraseña</label>
+                <input type="password" id="register-password" name="password" placeholder="Escribe tu contraseña" required>
+                <label for="register-password-confirm">Confirmar Contraseña</label>
+                <input type="password" id="register-password-confirm" name="password-confirm" placeholder="Confirma tu contraseña" required>
+                <button type="submit" class="btn-iniciar-sesion">Continuar</button>
+            </form>
+        </article>
     </section>
 
     <footer id="footer" class="d-flex justify-content-between bg-header-footer">
@@ -63,7 +48,7 @@
             <h2 class="text-footer-logo">The Reel <br> Café</h2>
         </div>
         <div>
-            <p class="text-footer">© 2024 The Reel Café. 2025B -Aplicaciones Web - Grupo 2</p>
+            <p class="text-footer">2025B -Aplicaciones Web - Grupo 2</p>
         </div>
     </footer>
 </body>
