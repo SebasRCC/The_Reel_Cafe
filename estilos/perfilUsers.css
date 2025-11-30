@@ -13,6 +13,145 @@
     align-items: center;
 }
 
+.reviews-section-container {
+    background: #DBDBDB;
+    border-radius: 10px;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 747px;
+    height: 383px;
+}
+
 .padding-parrafo {
     padding-left: 70px;
+}
+
+.profile-section {
+    display: flex;
+    gap: 3rem;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.profile-username {
+    font-size: 75px;
+    font-weight: 900;
+    font-family: var(--fuente-familia);
+    margin: 0;
+}
+
+.profile-avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-followers {
+    font-size: 24px;
+    color: #6b6b6b;
+    font-weight: bold;
+    margin: 0;
+}
+
+.reviews-title {
+    font-size: 50px;
+    font-weight: 900;
+    font-family: var(--fuente-familia);
+    margin: 0;
+    text-align: left;
+    align-self: flex-start;
+}
+
+.review-card {
+    background: #D0B88A;
+    border-radius: 20px;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 100%;
+}
+
+.review-content {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.review-poster img {
+    width: 70px;
+    height: 100px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.review-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.review-user-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.review-user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.review-username {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.review-text {
+    margin: 0;
+    font-size: 18px;
+    color: #6b6b6b;
+}
+
+.review-rating {
+    text-align: right;
+}
+
+.rating-score {
+    font-size: 55px;
+    font-weight: 900;
+    color: #A2650E;
+    margin: 0 0 0.2rem 0;
+    line-height: 1;
+}
+
+.rating-likes {
+    font-size: 18px;
+    color: #000;
+    margin: 0;
+}
+
+.padding-left-0{
+    padding-left: 0px;
+}
+
+.btn-profile{
+    width: 250px;
+    height: 60px;
+    background-color: var(--color-negro);
+    border-radius: 20px;
+    color: var(--color-blanco);
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.btn-profile:hover{
+    background-color: var(--color-hover-btn);
+    color: var(--color-negro)
 }
