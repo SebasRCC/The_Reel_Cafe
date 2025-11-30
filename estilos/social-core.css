@@ -350,6 +350,15 @@ resenias-slider{
     width: 50%;
     height:auto;
 }
+.social-section{
+    margin: 50px;
+}
+.admin-section{
+    margin: 50px;
+}
+.index-section{
+    margin: 50px;
+}
 
 .article-user{
     padding: 50px;
