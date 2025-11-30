@@ -377,9 +377,14 @@ section {
 /* ===== PÁGINA DE BÚSQUEDA DE PELÍCULAS - DISEÑO FIGMA ===== */
 
 .search-section-new {
-    min-height: calc(100vh - 345px);
+    min-height: auto;
     background: var(--color-blanco);
-    padding: 80px 66px 20px 66px;
+    padding: 80px 66px 0px 66px;
+}
+
+/* Reduce espacio del footer solo en la página de búsqueda */
+.search-section-new ~ #footer .text-footer {
+    margin-top: 10px;
 }
 
 .search-container-new {
@@ -413,7 +418,7 @@ section {
     gap: 40px;
     margin-top: 60px;
     margin-left: 253px;
-    margin-bottom: 100px;
+    margin-bottom: 128px;
     align-items: flex-start;
 }
 
@@ -506,8 +511,7 @@ section {
 .movie-detail-section {
     padding: 80px 0 40px 0;
     background: var(--color-blanco);
-    min-height: calc(100vh - 180px);
-    padding-bottom: 100px;
+    min-height: calc(100vh - 244px);
 }
 
 .movie-detail-main-title {
@@ -516,7 +520,7 @@ section {
     font-weight: bold;
     line-height: 100px;
     color: var(--color-negro);
-    margin: 0 0 20px 253px;
+    margin: 0 0 20px 66px;
     text-shadow: 0px 4px 4px rgba(255, 255, 255, 1);
 }
 
@@ -529,9 +533,9 @@ section {
 }
 
 .movie-detail-poster {
-    width: 256px;
-    height: 380px;
-    margin-left: 253px;
+    width: 363px;
+    height: 537px;
+    margin-left: 101px;
     object-fit: cover;
     flex-shrink: 0;
 }
@@ -677,9 +681,10 @@ section {
 /* Sección de reseñas */
 .reviews-section {
     background: var(--color-blanco);
-    padding: 45px 0 80px 0;
+    padding: 45px 0 20px 0;
     display: flex;
     justify-content: center;
+    min-height: auto;
 }
 
 .reviews-container {
@@ -687,8 +692,8 @@ section {
     border-radius: 19px;
     padding: 37px 22px;
     width: 652px;
-    max-height: 383px;
-    overflow-y: auto;
+    max-height: none;
+    overflow-y: visible;
     display: flex;
     flex-direction: column;
     gap: 26px;
