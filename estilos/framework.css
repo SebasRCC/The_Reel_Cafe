@@ -64,6 +64,8 @@ body {
 .margin-0{margin: 0px;}
 .padding-0{padding: 0px;}
 .gap{gap: 10px;}
+.gap-10px{gap: 10px;}
+.gap-5px{gap: 5px;}
 .gap_section{gap: 70px;}
 
 
@@ -152,6 +154,22 @@ body {
     font-family: var(--fuente-familia);
 }
 .btn-iniciar-sesion{
+    width: auto;
+    height: 50px;
+    font-family: var(--fuente-familia);
+    background-color: var(--color-negro);
+    border-radius: 20px;
+    color: var(--color-blanco);
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--color-negro);
+    padding: 0 15px;
+}
+.btn-iniciar-sesion-login{
     width: 250px;
     height: 60px;
     background-color: var(--color-negro);
@@ -159,9 +177,25 @@ body {
     color: var(--color-blanco);
     font-weight: bold;
     font-size: 22px;
+    margin-left: 32%;
 }
-/* Modifier class for margin-left on iniciar sesion button */
-.btn-margin-left {
+
+.btn-cuenta{
+    width: 250px;
+    height: 60px;
+    background-color: var(--color-negro);
+    border-radius: 20px;
+    color: var(--color-blanco);
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 32%;
+    margin-top: 40px;
+}
+
+.btn-cerrar-sesion{
+    width: auto;
+    height: 50px;
+    font-family: var(--fuente-familia);
     background-color: var(--color-secundario);
     border-radius: 20px;
     color: var(--color-blanco);
@@ -182,11 +216,20 @@ body {
     color: var(--color-blanco);
     font-weight: bold;
     font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    font-family: var(--fuente-familia);
 }
 
 .btn-g-usuario{
     width: 400px;
     height: 100px;
+    font-family: var(--fuente-familia);
     background-color: var(--color-secundario);
     border-radius: 20px;
     color: var(--color-blanco);
@@ -234,13 +277,20 @@ body {
 }
 
 .btn-registrarse{
-    width: 250px;
-    height: 60px;
+    width: auto;
+    height: 50px;
+    font-family: var(--fuente-familia);
     background-color: var(--color-secundario);
     border-radius: 20px;
     color: var(--color-blanco);
     font-weight: bold;
-    font-size: 22px;
+    font-size: 15px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--color-negro);
+    padding: 0 15px;
 }
 
 /* extra */
@@ -286,6 +336,10 @@ body {
 }
 
 .btn-iniciar-sesion:hover{
+    background-color: var(--color-hover-btn);
+    color: var(--color-negro)
+}
+.btn-cuenta:hover{
     background-color: var(--color-hover-btn);
     color: var(--color-negro)
 }
