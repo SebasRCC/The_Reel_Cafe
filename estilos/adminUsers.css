@@ -64,8 +64,102 @@
     padding: auto;
 }
 
+.nav-hint{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.continue-link{
+    color: var(--color-negro);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 .imagen-register{
     width: 800px;
     height: 400px;
     margin: 0;
+}
+
+.h1-gustos{
+    font-size: 75px;
+    font-weight: 900;
+    font-family: var(--fuente-familia);
+    text-align: center;
+}
+
+.text-parrafo-gustos{
+    font-size: 30px;
+    line-height: 2;
+    color: var(--color-parrafos);
+    font-family: var(--fuente-familia);
+    font-weight: bold;
+}       
+
+.experience-section{
+    max-width: 2000px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.experience-copy{
+    width: 100%;
+    text-align: center;
+}
+
+.genres-row{
+    width: 100%;
+    gap: 2rem;
+}
+
+.genre-column{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.genre-option{
+    font-size: 28px;
+    line-height: 1.8;
+    color: var(--color-parrafos);
+    font-family: var(--fuente-familia);
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.genre-option input{
+    width: 24px;
+    height: 24px;
+}
+
+.experience-image{
+    width: auto;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.favorite-form{
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.favorite-form .btn-iniciar-sesion{
+    margin-top: 4rem;
+}
+
+.favorite-input{
+    width: 100%;
+    padding: 20px;
+    border: none;
+    background: #e7e7e7;
+    border-radius: 8px;
+    font-size: 24px;
+    font-family: var(--fuente-familia);
+}
+
+.padding-gustos{
+    padding-top: 20px;
 }
