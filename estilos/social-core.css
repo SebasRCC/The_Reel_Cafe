@@ -682,7 +682,10 @@ resenias-slider{
 .edit-review-section {
     margin: 50px auto;
     max-width: 1200px;
-    padding: 0 20px;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .edit-review-container {
@@ -690,6 +693,7 @@ resenias-slider{
     grid-template-columns: 250px 1fr;
     gap: 40px;
     align-items: start;
+    width: 100%;
 }
 
 .edit-review-sidebar {
