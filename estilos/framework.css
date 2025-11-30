@@ -27,7 +27,13 @@
     --padding: 10px;
     --margin: 40px;
 }
-
+/* borrar borrar borraaaaaar*/
+* {
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+    border-image: initial;
+}
 body {
     overflow-x: hidden;
 }
