@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Reel Cafe</title>
+    <link rel="stylesheet" href="../estilos/framework.css">
+    <link rel="stylesheet" href="../estilos/social-core.css">
+    <link rel="stylesheet" href="../estilos/admin_movie.css">
+    <link rel="icon" type="image/png" href="../recursos/icons/et.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="../recursos/icons/et.png" sizes="192x192">
+    <link rel="shortcut icon" href="../recursos/icons/et.png">
+</head>
+<body>
+    <header class="d-flex justify-content-around align-items-center bg-header-footer">
+        <div class="d-flex align-items-center">
+            <img class="logo-img-header" src="../recursos/imgs/logo.png" alt="Logo The Reel Cafe">
+            <h1 class="text_header">The Reel <br> Café</h1>
+        </div>
+        <div class="d-flex gap">
+            <div class="buscador">
+                    <input class="buscador-input" type="text" placeholder="Ingresa la película o usuario que buscas aquí">
+            </div>
+            <button class="btn-buscar">Buscar</button>
+        </div>
+
+        <div class="d-flex gap">
+            <UL class="d-flex list-none-style gap">
+                <LI><img class="user-icon rounded-md"src="../recursos/icons/user-default.png" alt="User Icon"></LI>
+                <LI><button class="btn-usuario">USUARIO</button></LI>
+                <LI><a href="../paginas/index.html" class="btn-cerrar-sesion">CERRAR SESION</a></LI>
+            </UL>
+        </div>
+
+
+    </header>
+    <!--Sección de administración de películas-->
+    <section class="">
+            <div class="d-flex gap justify-content-around align-items-center admin-header-section" >
+                <div>
+                    <h1 class="text-h2-admin">Gestión de películas</h1>
+            
+            <div class="buscador-admin">
+                <input class="buscador-input" type="text" placeholder="Buscar película">
+            </div>
+                </div>
+            
+            <p class="text-parrafo-section-admin">Administra el catálogo, registra nuevas películas y actualiza la información existente.</p>
+            </div>
+            
+            <div class="admin-content " >
+                <div class="movies-table-container">
+                    <div class="table-header">
+                        <span class="">Poster</span>
+                        <span class="">Título</span>
+                        <span class="">Duración</span>
+                    </div>
+                    
+                    <div class="table-body">
+                        <div class="table-row row-yellow">
+                            <img src="../The-Reel-Cafe/imgs/Batman.jpg" alt="The Batman" class="movie-poster-small">
+                            <span class="movie-title-cell">The Batman</span>
+                            <span class="movie-duration">177 mins</span>
+                        </div>
+                        <div class="table-row row-beige">
+                            <img src="../The-Reel-Cafe/imgs/Jojo.jpg" alt="Jojo Rabbit" class="movie-poster-small">
+                            <span class="movie-title-cell">Jojo Rabbit</span>
+                            <span class="movie-duration">108 mins</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="admin-buttons">
+                    <a href="admin_movie_edit.html" class="btn-admin btn-edit">Editar película</a>
+                    <a href="admin_movie_new.html" class="btn-admin btn-new">Publicar nueva</a>
+                </div>
+            </div>
+    </section>
+
+
+    <footer id="footer" class="d-flex justify-content-between bg-header-footer">
+        <div class="d-flex align-items-center margin">
+            <img class="logo-img-footer" src="../recursos/imgs/logo.png" alt="Logo The Reel Cafe">
+            <h2 class="text-footer-logo">The Reel <br> Café</h2>
+        </div>
+
+        <div>
+            <p class="text-footer">© 2024 The Reel Café. 2025B -Aplicaciones Web - Grupo 2</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

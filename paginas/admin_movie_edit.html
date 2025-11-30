@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Reel Cafe</title>
+    <link rel="stylesheet" href="../estilos/framework.css">
+    <link rel="stylesheet" href="../estilos/social-core.css">
+    <link rel="stylesheet" href="../estilos/admin_movie.css">
+    <link rel="icon" type="image/png" href="../recursos/icons/et.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="../recursos/icons/et.png" sizes="192x192">
+    <link rel="shortcut icon" href="../recursos/icons/et.png">
+</head>
+<body>
+    <header class="d-flex justify-content-around align-items-center bg-header-footer">
+        <div class="d-flex align-items-center">
+            <img class="logo-img-header" src="../recursos/imgs/logo.png" alt="Logo The Reel Cafe">
+            <h1 class="text_header">The Reel <br> Café</h1>
+        </div>
+        <div class="d-flex gap">
+            <div class="buscador">
+                    <input class="buscador-input" type="text" placeholder="Ingresa la película o usuario que buscas aquí">
+            </div>
+            <button class="btn-buscar">Buscar</button>
+        </div>
+
+        <div class="d-flex gap">
+            <UL class="d-flex list-none-style gap">
+                <LI><img class="user-icon rounded-md"src="../recursos/icons/user-default.png" alt="User Icon"></LI>
+                <LI><button class="btn-usuario">USUARIO</button></LI>
+                <LI><a href="../paginas/index.html" class="btn-cerrar-sesion">CERRAR SESION</a></LI>
+            </UL>
+        </div>
+
+
+    </header>
+    <!--Sección de administración de películas-->
+    <section class="">
+            <div class="d-flex gap justify-content-around align-items-center admin-header-section" >
+                <div>
+                    <h1 class="text-h2-admin">Editar película</h1>
+            
+            
+                </div>
+            
+            <p class="text-parrafo-section-admin">Modifica la información de la película seleccionada.</p>
+            </div>
+            
+            <div class="form-edit-container">
+                <form class="movie-form">
+                    <!-- Columna izquierda - Upload de imagen -->
+                    <div class="form-left">
+                        <p class="upload-label">Poster</p>
+                        <p class="upload-subtitle">Haz clic para subir un nuevo poster</p>
+                        <div class="upload-area">
+                            <img src="../recursos/imgs/image 8.png" alt="Upload" class="upload-preview">
+                            <input type="file" id="movie-poster" accept="image/*" class="file-input">
+                        </div>
+                    </div>
+                    
+                    <!-- Columna derecha - Campos del formulario -->
+                    <div class="form-right">
+                        <div class="form-group form-full">
+                            <label for="title" class="form-label">Título</label>
+                            <input type="text" id="title" name="title" class="form-input" value="The Batman" required>
+                        </div>
+                        
+                        <div class="form-group form-full">
+                            <label for="synopsis" class="form-label">Sinopsis</label>
+                            <textarea id="synopsis" name="synopsis" class="form-textarea" rows="5" required>Cuando un asesino se dirige a la élite de Gotham con una serie de maquinaciones sádicas, un rastro de pistas crípticas envía Batman a una investigación en los bajos fondos.</textarea>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="director" class="form-label">Director</label>
+                                <input type="text" id="director" name="director" class="form-input" value="Matt Reeves" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="duration" class="form-label">Duración</label>
+                                <input type="text" id="duration" name="duration" class="form-input" value="177 mins" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group form-full">
+                            <label for="trailer-url" class="form-label">Trailer URL</label>
+                            <input type="url" id="trailer-url" name="trailer-url" class="form-input" value="https://www.youtube.com/watch?v=mqqft2x_Aa4" required>
+                        </div>
+                        
+                        <div class="form-actions">
+                            <button type="submit" class="btn-form btn-save">Guardar cambios</button>
+                            <a href="admin_movies.html" class="btn-form btn-cancel">Cancelar</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+    </section>
+
+
+    <footer id="footer" class="d-flex justify-content-between bg-header-footer">
+        <div class="d-flex align-items-center margin">
+            <img class="logo-img-footer" src="../recursos/imgs/logo.png" alt="Logo The Reel Cafe">
+            <h2 class="text-footer-logo">The Reel <br> Café</h2>
+        </div>
+
+        <div>
+            <p class="text-footer">© 2024 The Reel Café. 2025B -Aplicaciones Web - Grupo 2</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
+</html>

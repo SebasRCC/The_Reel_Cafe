@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Reel Cafe</title>
+    <link rel="stylesheet" href="../estilos/framework.css">
+    <link rel="stylesheet" href="../estilos/social-core.css">
+    <link rel="stylesheet" href="../estilos/admin_movie.css">
+    <link rel="icon" type="image/png" href="../recursos/icons/et.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="../recursos/icons/et.png" sizes="192x192">
+    <link rel="shortcut icon" href="../recursos/icons/et.png">
+</head>
+<body>
+    <header class="d-flex justify-content-around align-items-center bg-header-footer">
+        <div class="d-flex align-items-center">
+            <img class="logo-img-header" src="../recursos/imgs/logo.png" alt="Logo The Reel Cafe">
+            <h1 class="text_header">The Reel <br> Café</h1>
+        </div>
+        <div class="d-flex gap">
+            <div class="buscador">
+                    <input class="buscador-input" type="text" placeholder="Ingresa la película o usuario que buscas aquí">
+            </div>
+            <button class="btn-buscar">Buscar</button>
+        </div>
+
+        <div class="d-flex gap">
+            <UL class="d-flex list-none-style gap">
+                <LI><img class="user-icon rounded-md"src="../recursos/icons/user-default.png" alt="User Icon"></LI>
+                <LI><button class="btn-usuario">USUARIO</button></LI>
+                <LI><a href="../paginas/index.html" class="btn-cerrar-sesion">CERRAR SESION</a></LI>
+            </UL>
+        </div>
+
+
+    </header>
+    <!--Sección de búsqueda de películas-->
+    <section class="search-section-new">
+        <div class="search-container-new">
+            <!-- Título y subtítulo -->
+            <h1 class="search-main-title">Lo que encontramos para tí</h1>
+            <p class="search-main-subtitle">Estos son los resultados que coinciden<br>con tu búsqueda.</p>
+            
+            <!-- Película encontrada -->
+            <div class="movie-result-card">
+                <img src="../recursos/imgs/image 8 (1).png" alt="Spider-Man 2" class="movie-result-poster">
+                
+                <div class="movie-result-info">
+                    <h2 class="movie-result-title">Spider-Man 2</h2>
+                    <p class="movie-result-synopsis">El atormentado Peter Parker lucha contra un científico siniestro que utiliza sus tentáculos mecánicos con fines destructivos.</p>
+                    <p class="movie-result-director"><span class="director-label">Director:</span> Sam Raimi</p>
+                    
+                    <div class="movie-result-footer">
+                        <span class="movie-result-rating">3.9/5</span>
+                        <a href="movie_search_detail.html" class="btn-ampliar">Ampliar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="footer" class="d-flex justify-content-between bg-header-footer">
+        <div class="d-flex align-items-center margin">
+            <img class="logo-img-footer" src="../recursos/imgs/logo.png" alt="Logo The Reel Cafe">
+            <h2 class="text-footer-logo">The Reel <br> Café</h2>
+        </div>
+
+        <div>
+            <p class="text-footer">© 2024 The Reel Café. 2025B -Aplicaciones Web - Grupo 2</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
