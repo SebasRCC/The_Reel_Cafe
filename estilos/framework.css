@@ -23,17 +23,11 @@
     --fuente-l: 1rem; 
     --fuente-md: 0.8rem;
     --fuente-sm: 0.6rem;
-    --dimension-redondeado: 20px;
+    --dimension-redondeado: 80px;
     --padding: 10px;
     --margin: 40px;
 }
-/* borrar borrar borraaaaaar*/
-* {
-    border-width: 1px;
-    border-style: solid;
-    border-color: red;
-    border-image: initial;
-}
+
 body {
     overflow-x: hidden;
 }
@@ -101,8 +95,13 @@ body {
     font-weight: bolder;
     font-family: var(--fuente-familia);
     line-height: 1;
-    padding-top: 100px;
     padding-left: 30px;
+}
+.text-h3{
+    font-size: 20px;
+    font-family: var(--fuente-familia);
+    line-height: 1;
+    color:#6B6B6B
 }
 .text-parrafo-section{
     font-size: 25px;
@@ -120,7 +119,6 @@ body {
     font-family: var(--fuente-familia);
     font-weight: bold;
     padding-left: 60px;
-
 }
 .text-separador{
     font-size: 80px;
@@ -215,6 +213,24 @@ body {
     font-weight: bold;
     font-size: 40px;
 }
+.btn-seguir{
+    width: 150px;
+    height: 50px;
+    background-color: var(--color-banner-footer);
+    border-radius: 20px;
+    color: var(--color-blanco);
+    font-weight: bold;
+    font-size: 20px;
+}
+.btn-volver{
+    width: 150px;
+    height: 50px;
+    background-color: var(--color-secundario);
+    border-radius: 20px;
+    color: var(--color-blanco);
+    font-weight: bold;
+    font-size: 20px;
+}
 /* extra */
 #footer{
     height: 150px;
@@ -285,5 +301,13 @@ body {
 .btn-g-pelicula:hover{
     background-color: var(--color-hover-btn)
     ;
+    color: var(--color-negro);
+}
+.btn-seguir:hover{
+    background-color: var(--color-hover-btn);
+    color: var(--color-negro);
+}
+.btn-volver:hover{
+    background-color: var(--color-hover-btn);
     color: var(--color-negro);
 }
