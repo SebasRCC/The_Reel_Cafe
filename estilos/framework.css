@@ -189,6 +189,26 @@ body {
     font-weight: bold;
     font-size: 20px;
 }
+
+.btn-g-usuario{
+    width: 400px;
+    height: 100px;
+    background-color: var(--color-secundario);
+    border-radius: 20px;
+    color: var(--color-blanco);
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.btn-g-pelicula{
+    width: 400px;
+    height: 100px;
+    background-color: var(--color-negro);
+    border-radius: 20px;
+    color: var(--color-blanco);
+    font-weight: bold;
+    font-size: 40px;
+}
 /* extra */
 #footer{
     height: 150px;
@@ -250,4 +270,14 @@ body {
 .btn-usuario:hover{
     background-color: var(--color-hover-btn);
     color: var(--color-negro)
+}
+.btn-g-usuario:hover{
+    background-color: var(--color-hover-btn);
+    color: var(--color-negro);
+
+}
+.btn-g-pelicula:hover{
+    background-color: var(--color-hover-btn)
+    ;
+    color: var(--color-negro);
 }
