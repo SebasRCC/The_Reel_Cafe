@@ -14,6 +14,8 @@
     --color-secundario: #935719;
     --color-parrafos: #6B6B6B;
     --color-negro: #000000;
+    --color-review: #D0B88A;
+    --color-review2: #DDDDDD;
 
     --fuente-logos: 'Prociono', Arial, sans-serif; 
     --fuente-familia: 'Lato', Arial, sans-serif;
@@ -29,7 +31,6 @@
 body {
     overflow-x: hidden;
 }
-
 
 /* border */
 .border-buscar{border: 3px dashed var(--color-blanco); }
@@ -89,6 +90,14 @@ body {
     line-height: 1;
     padding-left: 70px;
 }
+.text-h2{
+    font-size: 70px;
+    font-weight: bolder;
+    font-family: var(--fuente-familia);
+    line-height: 1;
+    padding-top: 100px;
+    padding-left: 30px;
+}
 .text-parrafo-section{
     font-size: 25px;
     line-height: 2;
@@ -97,6 +106,15 @@ body {
     font-weight: bold;
     padding-right: 60px;
     margin-top: 70px;
+}
+.text-parrafo{
+    font-size: 25px;
+    line-height: 2;
+    color: var(--color-parrafos);
+    font-family: var(--fuente-familia);
+    font-weight: bold;
+    padding-left: 60px;
+
 }
 .text-separador{
     font-size: 80px;
