@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Reel Cafe</title>
+    <link rel="stylesheet" href="../estilos/framework.css">
+    <link rel="stylesheet" href="../estilos/social-core.css">
+    <link rel="icon" type="image/png" href="../recursos/icons/et.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="../recursos/icons/et.png" sizes="192x192">
+    <link rel="shortcut icon" href="../recursos/icons/et.png">
+</head>
+<body>
+    <header class="d-flex justify-content-around align-items-center bg-header-footer">
+        <div class="d-flex align-items-center">
+            <img class="logo-img-header" src="../recursos/imgs/logo.png" alt="Logo The Reel Cafe">
+            <h1 class="text_header">The Reel <br> Café</h1>
+        </div>
+        <div class="d-flex gap">
+            <div class="buscador">
+                    <input class="buscador-input" type="text" placeholder="Ingresa la película o usuario que buscas aquí">
+            </div>
+            <button class="btn-buscar">Buscar</button>
+        </div>
+
+        <div class="d-flex gap">
+            <UL class="d-flex list-none-style gap">
+                <LI><img class="user-icon rounded-md"src="../recursos/icons/user-default.png" alt="User Icon"></LI>
+                <LI><button class="btn-usuario">USUARIO</button></LI>
+                <LI><a href="../paginas/index.html" class="btn-cerrar-sesion">CERRAR SESION</a></LI>
+            </UL>
+        </div>
+    </header>
+    
+    <section class="d-flex">
+        <article class="article-user">
+            <div class="user-container">
+                <h2 class="text-h2">Will Ferrell</h2>
+                <img class="user-public-profile-img rounded-md" src="../recursos/imgs/will.png" alt="User Public Profile Image">
+                <h3 class="text-h3">Seguidores: 67</h3>
+            </div>
+            <div class="btns-user">
+                <button class="btn-seguir">Seguir</button>
+                <button class="btn-volver">Volver</button>
+            </div>
+        </article>
+        <article class="article-user-resenias">
+            <div>
+                <h1 class="text-h2">Reseñas</h1>
+            </div>
+            
+            <div class="resenias-container">
+                <div class="resenias-card">
+
+                    <!-- POSTER -->
+                    <img class="movie-poster-review" src="../recursos/imgs/megamente.png" alt="Poster">
+
+                    <!-- CENTRO -->
+                    <div class="resenia-info">
+                        <div class="d-flex align-items-center gap-10px">
+                            <img class="user-icon" src="../recursos/imgs/will.png" alt="User">
+                            <h2 class="nombre-usuario">Will Ferrell</h2>
+                        </div>
+
+                        <p class="texto-resenia">
+                            Megamind > the godfather <br>
+                            delete your account if you don't agree
+                        </p>
+
+                        <details class="comentario-form">
+                            <summary class="btn-comentario">Dejar tu comentario</summary>
+                            <div class="comentario-input-container">
+                                <textarea placeholder="Escribe tu comentario..." class="comentario-textarea"></textarea>
+                                <button type="submit" class="btn-publicar">Publicar</button>
+                            </div>
+                        </details>
+                    </div>
+
+                    <!-- DERECHA -->
+                    <div class="resenia-lateral">
+                        <h1 class="rating">5/5</h1>
+                        <div class="d-flex align-items-center gap-5px">
+                            <img class="like-icon" src="../recursos/icons/like.png" alt="Like Icon">
+                            <p>1000 likes</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="resenias-card">
+                    <!-- POSTER -->
+                    <img class="movie-poster-review" src="../recursos/imgs/volver.png" alt="Poster">
+
+                    <!-- CENTRO -->
+                    <div class="resenia-info">
+                        <div class="d-flex align-items-center gap-10px">
+                            <img class="user-icon" src="../recursos/imgs/will.png" alt="User">
+                            <h2 class="nombre-usuario">Will Ferrell</h2>
+                        </div>
+
+                        <p class="texto-resenia">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras diam mauris, porttitor at cursus ut, molestie ut sem. Nulla ornare id eros nec euismod. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                        </p>
+
+                        <details class="comentario-form">
+                            <summary class="btn-comentario">Dejar tu comentario</summary>
+                            <div class="comentario-input-container">
+                                <textarea placeholder="Escribe tu comentario..." class="comentario-textarea"></textarea>
+                                <button type="submit" class="btn-publicar">Publicar</button>
+                            </div>
+                        </details>
+                    </div>
+
+                    <!-- DERECHA -->
+                    <div class="resenia-lateral">
+                        <h1 class="rating">5/5</h1>
+                        <div class="d-flex align-items-center gap-5px">
+                            <img class="like-icon" src="../recursos/icons/like.png" alt="Like Icon">
+                            <p>1000 likes</p>
+                        </div>
+                    </div>
+
+                </div>
+                
+                </div>
+            </div>
+
+        </article>
+    </section>
+
+
+
+
+
+    <footer id="footer" class="d-flex justify-content-between bg-header-footer">
+        <div class="d-flex align-items-center margin">
+            <img class="logo-img-footer" src="../recursos/imgs/logo.png" alt="Logo The Reel Cafe">
+            <h2 class="text-footer-logo">The Reel <br> Café</h2>
+        </div>
+
+        <div>
+            <p class="text-footer">2025B -Aplicaciones Web - Grupo 2</p>
+        </div>
+    </footer>
+</body>
+</html>
