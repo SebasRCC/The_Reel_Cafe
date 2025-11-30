@@ -160,20 +160,8 @@ body {
     font-weight: bold;
     font-size: 22px;
 }
-.btn-iniciar-sesion-login{
-    width: 250px;
-    height: 60px;
-    background-color: var(--color-negro);
-    border-radius: 20px;
-    color: var(--color-blanco);
-    font-weight: bold;
-    font-size: 22px;
-    margin-left: 32%;
-}
-.btn-cerrar-sesion{
-    width: auto;
-    height: 50px;
-    font-family: var(--fuente-familia);
+/* Modifier class for margin-left on iniciar sesion button */
+.btn-margin-left {
     background-color: var(--color-secundario);
     border-radius: 20px;
     color: var(--color-blanco);
