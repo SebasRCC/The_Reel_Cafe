@@ -45,6 +45,7 @@ body {
 
 /* FLEX */
 .d-flex{display: flex;}
+.flex-column{flex-direction: column;}
 .justify-content-around{justify-content: space-around;}
 .justify-content-between{justify-content: space-between;}
 .justify-content-center{justify-content: center;}
@@ -328,6 +329,14 @@ body {
 .btn-g-pelicula:hover{
     background-color: var(--color-hover-btn)
     ;
+    color: var(--color-negro);
+}
+.btn-seguir:hover{
+    background-color: var(--color-hover-btn);
+    color: var(--color-negro);
+}
+.btn-volver:hover{
+    background-color: var(--color-hover-btn);
     color: var(--color-negro);
 }
 
