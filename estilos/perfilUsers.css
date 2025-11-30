@@ -1,0 +1,18 @@
+.h1-search {
+    font-size: 75px;
+    font-weight: 900;
+    font-family: var(--fuente-familia);
+    padding-left: 70px;
+}
+
+.margin-search {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.padding-parrafo {
+    padding-left: 70px;
+}

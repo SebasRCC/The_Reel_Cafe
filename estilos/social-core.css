@@ -12,6 +12,17 @@
     height: 50px;
     
 }
+.user-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.user-public-profile-img{
+    width: 150px;
+    height: 150px;
+    border: 2px solid rgb(0, 208, 255);
+}
 
 .banner-img{
     width: 100%;
@@ -25,6 +36,15 @@
     display: block;
     margin: 0;
 }
+
+.admin-star{
+    width: 755px;
+    height: auto;
+    align-self: flex-end;
+    display: block;
+    margin: 0;
+}
+
 .banner_logeado{
     position: absolute;
     top: 0;
@@ -325,4 +345,88 @@ resenias-slider{
 .social-feed{
     width: 50%;
     height: auto;
+}
+.admin{
+    width: 50%;
+    height:auto;
+}
+.social-section{
+    margin: 50px;
+}
+.admin-section{
+    margin: 50px;
+}
+.index-section{
+    margin: 50px;
+}
+
+.article-user{
+    padding: 50px;
+    width: 40%;
+    height: auto;
+}
+.article-user-resenias{
+    padding: 50px;
+    width: 60%;
+    height: auto;
+}
+
+.btns-admin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+    gap: 20px;
+}
+.btns-user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    gap: 20px;
+}
+
+.comentario-form {
+    width: 100%;
+}
+
+.comentario-form summary {
+    cursor: pointer;
+    list-style: none;
+}
+
+.comentario-form summary::-webkit-details-marker {
+    display: none;
+}
+
+.comentario-input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.comentario-textarea {
+    width: 100%;
+    min-height: 80px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: var(--fuente-familia);
+}
+
+.btn-publicar {
+    padding: 10px 20px;
+    background-color: var(--color-hover-btn);
+    color: var(--color-negro);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-publicar:hover {
+    opacity: 0.8;
 }
