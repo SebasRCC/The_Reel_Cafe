@@ -223,6 +223,18 @@ body {
     font-weight: bold;
     font-size: 20px;
 }
+
+.btn-desactivated{
+    width: 250px;
+    height: 60px;
+    background-color: var(--color-negro);
+    border-radius: 20px;
+    color: var(--color-blanco);
+    font-weight: bold;
+    font-size: 22px;
+    opacity: 0.1;
+}
+
 /* extra */
 #footer{
     height: 150px;
