@@ -159,6 +159,15 @@ body {
     color: var(--color-blanco);
     font-weight: bold;
     font-size: 22px;
+}
+.btn-iniciar-sesion-login{
+    width: 250px;
+    height: 60px;
+    background-color: var(--color-negro);
+    border-radius: 20px;
+    color: var(--color-blanco);
+    font-weight: bold;
+    font-size: 22px;
     margin-left: 32%;
 }
 .btn-cerrar-sesion{
@@ -236,6 +245,16 @@ body {
     opacity: 0.1;
 }
 
+.btn-registrarse{
+    width: 250px;
+    height: 60px;
+    background-color: var(--color-secundario);
+    border-radius: 20px;
+    color: var(--color-blanco);
+    font-weight: bold;
+    font-size: 22px;
+}
+
 /* extra */
 #footer{
     height: 150px;
@@ -279,6 +298,10 @@ body {
 }
 
 .btn-iniciar-sesion:hover{
+    background-color: var(--color-hover-btn);
+    color: var(--color-negro)
+}
+.btn-iniciar-sesion-login:hover{
     background-color: var(--color-hover-btn);
     color: var(--color-negro)
 }
