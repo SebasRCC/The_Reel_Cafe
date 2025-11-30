@@ -170,6 +170,19 @@ body {
     font-size: 22px;
     margin-left: 32%;
 }
+
+.btn-cuenta{
+    width: 250px;
+    height: 60px;
+    background-color: var(--color-negro);
+    border-radius: 20px;
+    color: var(--color-blanco);
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 32%;
+    margin-top: 40px;
+}
+
 .btn-cerrar-sesion{
     width: auto;
     height: 50px;
@@ -298,6 +311,10 @@ body {
 }
 
 .btn-iniciar-sesion:hover{
+    background-color: var(--color-hover-btn);
+    color: var(--color-negro)
+}
+.btn-cuenta:hover{
     background-color: var(--color-hover-btn);
     color: var(--color-negro)
 }
