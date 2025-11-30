@@ -152,13 +152,20 @@ body {
     font-family: var(--fuente-familia);
 }
 .btn-iniciar-sesion{
-    width: 250px;
-    height: 60px;
+    width: auto;
+    height: 50px;
+    font-family: var(--fuente-familia);
     background-color: var(--color-negro);
     border-radius: 20px;
     color: var(--color-blanco);
     font-weight: bold;
-    font-size: 22px;
+    font-size: 15px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--color-negro);
+    padding: 0 15px;
 }
 .btn-iniciar-sesion-login{
     width: 250px;
@@ -259,13 +266,20 @@ body {
 }
 
 .btn-registrarse{
-    width: 250px;
-    height: 60px;
+    width: auto;
+    height: 50px;
+    font-family: var(--fuente-familia);
     background-color: var(--color-secundario);
     border-radius: 20px;
     color: var(--color-blanco);
     font-weight: bold;
-    font-size: 22px;
+    font-size: 15px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--color-negro);
+    padding: 0 15px;
 }
 
 /* extra */
