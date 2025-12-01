@@ -678,6 +678,16 @@ resenias-slider{
     background-color: #1a1a1a;
 }
 
+.btn-back {
+    background-color: var(--color-parrafos);
+    color: var(--color-blanco);
+    width: 150px;
+}
+
+.btn-back:hover {
+    background-color: #5a5a5a;
+}
+
 /* Edit Review Section Styles */
 .edit-review-section {
     margin: 50px auto;
