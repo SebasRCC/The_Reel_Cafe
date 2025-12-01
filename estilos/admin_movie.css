@@ -47,6 +47,10 @@ section {
     margin-left: 97px;
 }
 
+.volver {
+        gap: 800px;
+}
+    
 .buscador-admin .buscador-input {
     flex: 1;
     background: var(--color-buscar);
