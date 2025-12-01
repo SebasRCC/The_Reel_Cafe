@@ -18,17 +18,20 @@
             <img class="logo-img-header" src="../recursos/imgs/logo.png" alt="Logo The Reel Cafe">
             <h1 class="text_header">The Reel <br> Café</h1>
         </div>
-        <div class="d-flex gap">
-            <div class="buscador">
-                    <input class="buscador-input" type="text" placeholder="Ingresa la película o usuario que buscas aquí">
+        <form class="d-flex gap search-form-container" method="GET">
+            <div class="d-flex justify-content-around gap-10px">
+                <div class="buscador">
+                    <input class="buscador-input" type="text" name="busqueda" placeholder="Para ver la navegabilidad de búsqueda, dar clic en los botones" required>
+                </div>
+                <a href="user_search.html" type="submit" class="btn-buscar" formaction="../paginas/user_search.html">Buscar Usuario</a>
+                <a href="movie-search.html" type="submit" class="btn-buscar" formaction="../paginas/movie-search.html">Buscar Película</a>
             </div>
-            <button class="btn-buscar">Buscar</button>
-        </div>
+        </form>
 
         <div class="d-flex gap">
             <UL class="d-flex list-none-style gap">
                 <LI><img class="user-icon rounded-md"src="../recursos/icons/user-default.png" alt="User Icon"></LI>
-                <LI><button class="btn-usuario">USUARIO</button></LI>
+                <LI><a href="../paginas/user_profile.html" class="btn-usuario">USUARIO</a></LI>
                 <LI><a href="../paginas/index.html" class="btn-cerrar-sesion">CERRAR SESION</a></LI>
             </UL>
         </div>

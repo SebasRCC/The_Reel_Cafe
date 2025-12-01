@@ -61,6 +61,7 @@ body {
 /*ESPACIADO*/
 .padding{padding: var(--padding);}
 .margin{margin: var(--margin);}
+.margin-top{padding-top: 25px;}
 .margin-0{margin: 0px;}
 .padding-0{padding: 0px;}
 .gap{gap: 10px;}

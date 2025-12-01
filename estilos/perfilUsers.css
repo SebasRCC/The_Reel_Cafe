@@ -155,3 +155,7 @@
     background-color: var(--color-hover-btn);
     color: var(--color-negro)
 }
+
+.margin-lados{
+    margin: 0 70px;
+}
