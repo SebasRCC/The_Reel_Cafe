@@ -159,3 +159,52 @@
 .margin-lados{
     margin: 0 70px;
 }
+
+.edit-review-card-container {
+    background: #DBDBDB;
+    border-radius: 10px;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 747px;
+}
+
+.edit-review-card {
+    background: #D0B88A;
+    border-radius: 20px;
+    padding: 1.5rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 100%;
+}
+
+.edit-review-content {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+
+.edit-review-poster {
+    flex-shrink: 0;
+}
+
+.edit-review-poster img {
+    width: 120px;
+    height: 170px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.edit-review-details {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex: 1;
+}
+
+.edit-review-title {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
