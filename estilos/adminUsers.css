@@ -94,6 +94,7 @@
     text-decoration: underline;
     margin: 8px 0;
     font-size: 18px;
+    font-family: var(--fuente-familia);
 }
 
 .imagen-register{
