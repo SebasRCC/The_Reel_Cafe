@@ -130,18 +130,13 @@ section {
     font-family: var(--fuente-familia);
     font-size: 22px;
     color: var(--color-negro);
-}
-
-.row-yellow,
-.row-beige {
-    background: #D4AF7A;
+    background: #D4AF7A !important;
     transition: background 0.3s ease;
     cursor: pointer;
 }
 
-.row-yellow:hover,
-.row-beige:hover {
-    background: #FFEB3B;
+.table-row:hover {
+    background: #FFEB3B !important;
 }
 
 .movie-poster-small {
@@ -190,6 +185,10 @@ section {
 
 .btn-new {
     background: var(--color-secundario);
+}
+
+.btn-back {
+    background: var(--color-parrafos);
 }
 
 .btn-admin:hover {
