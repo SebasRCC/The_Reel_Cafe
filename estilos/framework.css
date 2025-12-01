@@ -63,6 +63,7 @@ body {
 .margin{margin: var(--margin);}
 .margin-top{padding-top: 25px;}
 .margin-0{margin: 0px;}
+.margin-bottom{margin-bottom: 50px;}
 .padding-0{padding: 0px;}
 .gap{gap: 10px;}
 .gap-10px{gap: 10px;}
