@@ -16,12 +16,14 @@
             <img class="logo-img-header" src="../recursos/imgs/logo.png" alt="Logo The Reel Cafe">
             <h1 class="text_header">The Reel <br> Café</h1>
         </div>
-        <form class="d-flex gap" method="GET">
-            <div class="buscador">
-                    <input class="buscador-input" type="text" name="busqueda" placeholder="Como no se encuentra verificable, ingresar cualquier texto y usar los botones" required>
+        <form class="d-flex gap search-form-container" method="GET">
+            <div class="d-flex justify-content-around gap-10px">
+                <div class="buscador">
+                    <input class="buscador-input" type="text" name="busqueda" placeholder="Para ver la navegabilidad de búsqueda, dar clic en los botones" required>
+                </div>
+                <a href="user_search.html" type="submit" class="btn-buscar" formaction="../paginas/user_search.html">Buscar Usuario</a>
+                <a href="movie-search.html" type="submit" class="btn-buscar" formaction="../paginas/movie-search.html">Buscar Película</a>
             </div>
-            <button type="submit" class="btn-buscar" formaction="../paginas/user_search.html">Buscar Usuario</button>
-            <button type="submit" class="btn-buscar" formaction="../paginas/movie-search.html">Buscar Película</button>
         </form>
 
         <div class="d-flex gap">
