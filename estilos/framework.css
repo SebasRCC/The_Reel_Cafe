@@ -216,17 +216,33 @@ body {
     color: var(--color-blanco);
     font-weight: bold;
     font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    font-family: var(--fuente-familia);
 }
 
 .btn-g-usuario{
     width: 400px;
     height: 100px;
+    font-family: var(--fuente-familia);
     background-color: var(--color-secundario);
     border-radius: 20px;
     color: var(--color-blanco);
     font-weight: bold;
     font-size: 40px;
     margin-bottom: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    padding: 0;
 }
 .btn-g-pelicula{
     width: 400px;
@@ -236,6 +252,15 @@ body {
     color: var(--color-blanco);
     font-weight: bold;
     font-size: 40px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    font-family: var(--fuente-familia);
+    margin-bottom: 20px;
 }
 .btn-seguir{
     width: 150px;
@@ -254,6 +279,14 @@ body {
     color: var(--color-blanco);
     font-weight: bold;
     font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    font-family: var(--fuente-familia);
 }
 
 .btn-desactivated{

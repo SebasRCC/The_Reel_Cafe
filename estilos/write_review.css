@@ -11,7 +11,8 @@
 
 .write-review-container {
     max-width: 1400px;
-    margin: 0 auto;
+    padding-left: 160px;
+
 }
 
 .write-review-title {
@@ -20,14 +21,16 @@
     font-weight: bold;
     color: var(--color-negro);
     margin-bottom: var(--margin);
-    padding-left: 30px;
+    padding-top: 20px;
+    padding-left: 130px;
 }
 
 .write-review-content {
     display: flex;
-    gap: 70px;
+    gap: 100px;
     align-items: flex-start;
     padding: 0 40px;
+    padding-left: 180px;
 }
 
 .write-review-poster {
@@ -222,10 +225,12 @@
     
     .write-review-title {
         font-size: 48px;
+        padding-left: 100px;
     }
     
     .write-review-section {
         padding: 20px 10px;
+        padding-left: 20px;
     }
     
     .review-footer {
